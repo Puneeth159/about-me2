@@ -1,0 +1,43 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+#profile {
+  border-radius: 50%;
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+}
+body {
+  background-color: #fefbd8;
+}
+
+
+nav {
+  background: none;
+  float: right;
+  font-size: 1.125em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+  word-spacing: 2em;
+}
+
+table, th, td {
+  border: 1px solid black;
+  {
+    
+.flex-container {
+  display: flex;
+}
+#contact{
+  text-align: center;
+}
+
+ 
+ 
+
+  
+  
+  
