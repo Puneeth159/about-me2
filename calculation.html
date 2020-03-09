@@ -31,23 +31,42 @@
         <h2></h2>
     </nav>
 
-    <form id="rectangleForm" method="post">
-        <h2>Area of a rectangle</h2>
+    <form id="triangleForm" method="post">
+        <h2>Perimeter of a Triangle</h2>
         <div>
-            <label for="length">Length:</label>
-            <input type="number" name="length" id="length"  />
+            <label for="side1">Side1:</label>
+            <input type="number" name="side1" id="side1"  />
         </div><br><br>
         <div>
-            <label for="width">Width:</label>
-            <input type="number" name="width" id="width"  />
+            <label for="side2">Side2:</label>
+            <input type="number" name="side2" id="side2"  />
         </div><br><br>
         <div>
-            <label for="area">Area:</label>
-            <input type="number" name="area" id="rectarea"  />
+            <label for="side3">Side3:</label>
+            <input type="number" name="side3" id="side3"  />
         </div><br><br>
         <div>
-            <input type="button" value="Calculate" id="button" />
+            <label id="perimeter">Perimeter:</label>
+           
+        </div><br><br>
+        <div>
+           
+
+        </div><br><br>
+        <div>
+            <input type="button" value="Calculate" id="btn" />
+        </div><br><br>
+
+        <div>
+            <input type="button"  id="buttonajax" value="Ajax"/><p></p>
+            <img id = "image" width="50%" height="400px"><p></p>
+            <input type="button" id="buttonqunit" value= "Qunit"/><p></p>
+             <a href="test/qunit.html" class="Qunit-button">Qunit</a>
+
+
         </div>
+
+
 
     </form>
 
@@ -57,7 +76,7 @@
 
 
 </body>
-<script src="main.js"></script>
+<script src="src/main.js"></script>
 
 
 </html>

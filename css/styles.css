@@ -9,10 +9,10 @@ h1 {
   margin-left: left;
   margin-right: auto;
 }
+
 body {
   background-color: #fefbd8;
 }
-
 
 nav {
   background: none;
@@ -26,18 +26,10 @@ nav {
 
 table, th, td {
   border: 1px solid black;
-  {
-    
-.flex-container {
-  display: flex;
-}
-#contact{
-  text-align: center;
-}
-
- 
- 
-
-  
-  
-  
+    {
+    .flex-container {
+      display: flex;
+    }
+    footer {
+      text-align: center;
+    }
